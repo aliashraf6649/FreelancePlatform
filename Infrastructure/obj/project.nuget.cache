@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "STfd3rAc994=",
+  "dgSpecHash": "nycWhzN/H8g=",
   "success": true,
-  "projectFilePath": "D:\\College\\6th_semester\\Distributed Systems and Cloud Computing\\Project2\\FreelancePlatform\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\College\\6th_semester\\Distributed Systems and Cloud Computing\\Project\\FreelancePlatform\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.44.1\\azure.core.1.44.1.nupkg.sha512",
