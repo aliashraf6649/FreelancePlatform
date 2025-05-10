@@ -1,0 +1,33 @@
+﻿@model List<FreelancePlatform.Domain.Entities.Offer>
+
+@if (Model == null || !Model.Any())
+{
+    <p>No proposals have been submitted yet.</p>
+}
+else
+{
+    <ul class="list-group">
+        @foreach (var proposal in Model)
+        {
+            <li class="list-group-item">
+                <strong>Freelancer ID:</strong> @proposal.FreelancerId <br />
+                <strong>Bid Amount:</strong> $@proposal.BidAmount <br />
+                <strong>Cover Letter:</strong> @proposal.CoverLetter <br />
+                <strong>Submitted At:</strong> @proposal.SubmittedAt.ToString("g")
+                @if (proposal.Status == OfferStatus.Pending)
+                {
+                    <div class="btn-group">
+                        <form asp-controller="Proposal" asp-action="Accept" method="post">
+                            <input type="hidden" name="proposalId" value="@proposal.Id" />
+                            <button type="submit" class="btn btn-sm btn-success">Accept</button>
+                        </form>
+                        <form asp-controller="Proposal" asp-action="Reject" method="post">
+                            <input type="hidden" name="proposalId" value="@proposal.Id" />
+                            <button type="submit" class="btn btn-sm btn-danger">Reject</button>
+                        </form>
+                    </div>
+                }
+            </li>
+        }
+    </ul>
+}

@@ -1,0 +1,44 @@
+﻿
+@using FreelancePlatform.Web.ViewModels
+@using FreelancePlatform.Domain.Enums
+@model JobViewModel.JobDetailsViewModel
+@{
+    ViewData["Title"] = Model?.Job?.Title ?? "Job Details";
+}
+
+<div class="container mt-4">
+    @if (Model?.Job == null)
+    {
+        <div class="alert alert-danger">
+            Job not found or no longer available.
+        </div>
+    }
+    else
+    {
+        <div class="card">
+            <div class="card-header">
+                <h2>@Model.Job.Title</h2>
+            </div>
+            <div class="card-body">
+                <p class="card-text">@Model.Job.Description</p>
+                <ul class="list-group list-group-flush mb-3">
+                    <li class="list-group-item"><strong>Budget:</strong> $@Model.Job.Budget</li>
+                    <li class="list-group-item"><strong>Deadline:</strong> @Model.Job.Deadline.ToString("d")</li>
+                    <li class="list-group-item"><strong>Status:</strong> @Model.Job.Status</li>
+                    
+                </ul>
+
+                @if (Model.CanSubmitProposal)
+                {
+                    <a asp-controller="Proposal" asp-action="Create" asp-route-jobId="@Model.Job.Id" 
+                       class="btn btn-success mb-3">Submit Proposal</a>
+                }
+                
+                @if (Model.IsClient)
+                {
+                    <partial name="_ProposalsList" model="Model.Proposals" />
+                }
+            </div>
+        </div>
+    }
+</div>

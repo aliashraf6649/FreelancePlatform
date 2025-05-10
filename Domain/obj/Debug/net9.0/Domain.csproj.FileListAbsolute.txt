@@ -1,0 +1,24 @@
+D:\FHCAI\FreelancePlatform\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\FHCAI\FreelancePlatform\Domain\bin\Debug\net9.0\Domain.dll
+D:\FHCAI\FreelancePlatform\Domain\bin\Debug\net9.0\Domain.pdb
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.dll
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.pdb
+D:\FHCAI\FreelancePlatform\Domain\obj\Debug\net9.0\ref\Domain.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\bin\Debug\net9.0\Domain.deps.json
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\bin\Debug\net9.0\Domain.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\bin\Debug\net9.0\Domain.pdb
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.AssemblyInfoInputs.cache
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.AssemblyInfo.cs
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.csproj.CoreCompileInputs.cache
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.sourcelink.json
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\refint\Domain.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\Domain.pdb
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Domain\obj\Debug\net9.0\ref\Domain.dll

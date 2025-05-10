@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  freelance-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Freelance@1234"
+      ACCEPT_EULA: "Y"
+      MSSQL_PID: "Express"
+    ports:
+      - "1433:1433"
+    volumes:
+      - freelance_sql_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Freelance@1234 -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 10s
+      start_period: 30s
+      retries: 15
+
+  freelance-web:
+    build: .
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      - ConnectionStrings__DefaultConnection=Server=freelance-db;Database=FreelancePlatform;User Id=sa;Password=Freelance@1234;TrustServerCertificate=true;Connect Timeout=60;
+    depends_on:
+      freelance-db:
+        condition: service_healthy
+
+volumes:
+  freelance_sql_data:

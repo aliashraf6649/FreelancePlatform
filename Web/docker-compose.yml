@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  freelance-db:
+    image: postgres:15
+    environment:
+      POSTGRES_PASSWORD: Freelance@1234
+      POSTGRES_DB: FreelancePlatform
+      POSTGRES_USER: freelance_user
+    ports:
+      - "1433:1433"
+    volumes:
+      - freelance_sql_data:/var/opt/mssql
+    healthcheck:
+      test: ["CMD-SHELL", "/opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P Freelance@1234 -Q \"SELECT 1\" || exit 1"]
+      interval: 10s
+      timeout: 10s
+      start_period: 30s
+      retries: 15
+    deploy:
+      resources:
+        limits:
+          memory: 2G
+
+  freelance-web:
+    build: .
+    ports:
+      - "8080:8080"
+      - "8081:8081"
+    environment:
+      ConnectionStrings__DefaultConnection: "Server=freelance-db;Database=FreelancePlatform;User=sa;Password=Freelance@1234;TrustServerCertificate=true;Connect Timeout=30;"
+    depends_on:
+      freelance-db:
+        condition: service_healthy
+    restart: on-failure
+
+volumes:
+  freelance_sql_data:

@@ -1,0 +1,32 @@
+D:\FHCAI\FreelancePlatform\Application\bin\Debug\net9.0\Application.deps.json
+D:\FHCAI\FreelancePlatform\Application\bin\Debug\net9.0\Application.dll
+D:\FHCAI\FreelancePlatform\Application\bin\Debug\net9.0\Application.pdb
+D:\FHCAI\FreelancePlatform\Application\bin\Debug\net9.0\Domain.dll
+D:\FHCAI\FreelancePlatform\Application\bin\Debug\net9.0\Domain.pdb
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.sourcelink.json
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.dll
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\refint\Application.dll
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\Application.pdb
+D:\FHCAI\FreelancePlatform\Application\obj\Debug\net9.0\ref\Application.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\bin\Debug\net9.0\Application.deps.json
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\bin\Debug\net9.0\Application.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\bin\Debug\net9.0\Application.pdb
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\bin\Debug\net9.0\Domain.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\bin\Debug\net9.0\Domain.pdb
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.csproj.AssemblyReference.cache
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.AssemblyInfoInputs.cache
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.AssemblyInfo.cs
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.csproj.CoreCompileInputs.cache
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.sourcelink.json
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Applicat.44B5EDA2.Up2Date
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\refint\Application.dll
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\Application.pdb
+D:\College\6th_semester\Distributed Systems and Cloud Computing\Project2\FreelancePlatform\Application\obj\Debug\net9.0\ref\Application.dll
